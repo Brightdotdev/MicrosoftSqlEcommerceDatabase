@@ -38,7 +38,7 @@ ORDER BY
 	select orders.orderDate from orders
 
 
-	--countss
+	--counts
 	--this query counts the number of rows that are inthe orders tables(so we have 80 orders iif the query is run properly)
 	SELECT COUNT(*) AS NumberOfOrders FROM Orders;
 
